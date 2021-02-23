@@ -1,0 +1,60 @@
+.pay-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5%;
+    align-items: center;
+    border-bottom: 1px solid #c6c6c6;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 15px #b3b3b3, -10px -5px 15px #fff;
+  }
+  .pay-item__date{
+    display: flex;
+    align-items: flex-end;
+  }
+  .pay-item__day{
+    font-size: 30px;
+    font-weight: 500;
+    color: #333;
+    line-height: 1em;
+    margin-right: 10px;
+  }
+  .pay-item__mounth{
+    font-size: 15px;
+    color: #555;
+    line-height: 1em;
+    margin-right: 5px;
+  }
+  .pay-item__year{
+    font-size: 15px;
+    color: #777;
+    font-weight: 500;
+    line-height: 1em;
+  }
+  .pay-item__positive{
+    color: green;
+    font-size: 20px;
+    text-align: right;
+  }
+  .pay-item__negative{
+    color: red;
+    font-size: 20px;
+    text-align: right;
+  }
+  .pay-item__saldo{
+    color: green;
+    font-size: 30px;
+    text-align: right;
+  }
+  .pay-item__saldo_negative{
+    color: red;
+  }
+  .pay-item__delete{
+    display: none;
+  }
+  .pay-item__delete_show{
+    display: block;
+    cursor: pointer;
+  }
